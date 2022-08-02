@@ -1,7 +1,7 @@
 from trimming import videotrimming
 from facedetector import*
 from facealign import*
-from facealignvideo import*
+from video import*
 from mouthroi import*
 
 videotrimming(input="abc.mp4")
