@@ -8,13 +8,14 @@ def cropivideo(dir_path):
             os.remove(f)
             #dir_path = "facealign"
         output = 'face_align_sample.mp4'
+        shape = 180, 180
     elif dir_path=="mouth_roi":
         for f in glob.glob("mouth_roi_sample.mp4"):
             os.remove(f)
         output = 'mouth_roi_sample.mp4'
+        shape = 70, 40
 
     ext = '.png'
-    shape = 40, 40
     fps = 10
     images = [f for f in os.listdir(dir_path) if f.endswith(ext)]
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')

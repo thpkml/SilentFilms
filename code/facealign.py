@@ -9,6 +9,9 @@ def facealign():
 
     detector = dlib.get_frontal_face_detector()
     sp = dlib.shape_predictor("shape_predictor_5_face_landmarks.dat")
+
+    if not os.path.exists("facealign"):
+        os.makedirs("facealign")
     for f in glob.glob("facealign/*"):
         os.remove(f)
     aligned_faces = 0

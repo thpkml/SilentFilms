@@ -2,10 +2,14 @@ import os
 import dlib
 import glob
 import cv2 as cv
+
 def mouthroi():
     detector = dlib.get_frontal_face_detector()
     model = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
     win = dlib.image_window()
+
+    if not os.path.exists("mouth_roi"):
+        os.makedirs("mouth_roi")
     for folder in glob.glob("mouth_roi/*"):
         os.remove(folder)
     image_no = 0
@@ -26,7 +30,7 @@ def mouthroi():
             pad = 10
             crop_image = img[miny-pad:maxy+pad,minx-pad:maxx+pad]
             # cv.imshow('mouth', crop_image)
-            crop_image=cv.resize(crop_image,(80,80))
+            #crop_image=cv.resize(crop_image,(180,180))
             cv.imwrite(os.path.join(f'./mouth_roi/{image_no:04d}.png'), crop_image)
             image_no += 1
             cv.waitKey(0)
