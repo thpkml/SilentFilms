@@ -4,15 +4,15 @@ import glob
 def cropivideo(dir_path):
     
     if dir_path=="facealign":
-        for f in glob.glob("face_align_sample.mp4"):
+        for f in glob.glob("face_align_video.mp4"):
             os.remove(f)
             #dir_path = "facealign"
-        output = 'face_align_sample.mp4'
+        output = 'face_align_video.mp4'
         shape = 180, 180
     elif dir_path=="mouth_roi":
-        for f in glob.glob("mouth_roi_sample.mp4"):
+        for f in glob.glob("mouth_roi_video.mp4"):
             os.remove(f)
-        output = 'mouth_roi_sample.mp4'
+        output = 'mouth_roi_video.mp4'
         shape = 70, 40
 
     ext = '.png'
