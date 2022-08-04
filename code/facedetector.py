@@ -9,6 +9,9 @@ import glob
 
 def facedetector(invideo):
 
+    if not os.path.exists("frame_copy"):
+        os.makedirs("frame_copy")
+
     files = [file for file in glob.glob("frame_copy/*")]
     for file in files:
         os.remove(file)
@@ -49,7 +52,7 @@ def facedetector(invideo):
         # cv.imwrite(f'./frame/{image_no:04d}.jpg', cropped_image)
         #delete the foder content
             copy_image=frame_copy[y1:y2, x1:x2]
-            copy_image=cv.resize(copy_image,(80,80))
+            copy_image=cv.resize(copy_image,(180,180))
             cv.imwrite(f"./frame_copy/{image_no:04d}.jpg", copy_image)
             image_no+=1
 

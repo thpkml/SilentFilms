@@ -7,11 +7,14 @@ import glob
 
 # calculating duration
 def videotrimming(input):
+    
     video=cv.VideoCapture(input)
     fps=video.get(cv.CAP_PROP_FPS)
     frame_count = video.get(cv.CAP_PROP_FRAME_COUNT)
     duration=int(frame_count/fps)
 
+    if not os.path.exists("trim"):
+        os.makedirs("trim")
     files = [file for file in glob.glob("trim/*")]
     for file in files:
         os.remove(file)
