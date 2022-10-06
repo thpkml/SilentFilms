@@ -1,10 +1,10 @@
 import os
 import cv2 as cv
-#import pdb
+import pdb
 from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 import glob
 
-
+pdb.set_trace()
 # calculating duration
 def videotrimming(input):
     

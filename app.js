@@ -17,7 +17,7 @@ app.get('/lipreader', function(req, res) {
     res.render('lipreader.ejs');
 });
 
-app.get('/python', function(req, res) {
+app.get('/trim', function(req, res) {
     var proc = exec('python public/temp.py', function(err, stdout, stderr) {
         if(err) {console.log('Child process error: ', err);}
         else {
