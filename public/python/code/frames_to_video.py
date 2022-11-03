@@ -1,7 +1,7 @@
 import os
 import cv2
 import glob
-def cropivideo(dir_path):
+def croptovideo(dir_path):
     
     if dir_path=="facealign":
         for f in glob.glob("face_align_video.mp4"):
