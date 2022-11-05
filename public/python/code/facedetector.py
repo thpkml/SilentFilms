@@ -7,7 +7,7 @@ import os
 import copy
 import glob
 
-def facedetector(invideo):
+def facedetector(invideo, facedetector):
 
     if not os.path.exists("frame_copy"):
         os.makedirs("frame_copy")
@@ -19,7 +19,7 @@ def facedetector(invideo):
     cap = cv.VideoCapture(invideo)
     #cap = cv.VideoCapture(0)
     detector = dlib.get_frontal_face_detector()
-    model = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+    model = dlib.shape_predictor(facedetector)
     image_no=0
 
     while(cap.isOpened()):
