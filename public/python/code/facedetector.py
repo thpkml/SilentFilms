@@ -21,6 +21,13 @@ def facedetector(invideo, facedetector):
     detector = dlib.get_frontal_face_detector()
     model = dlib.shape_predictor(facedetector)
     image_no=0
+    
+    #Writing face detected video
+    width = int(cap.get(cv.CAP_PROP_FRAME_WIDTH) + 0.5)
+    height = int(cap.get(cv.CAP_PROP_FRAME_HEIGHT) + 0.5)
+    size = (width, height)
+    fourcc = cv.VideoWriter_fourcc(*'XVID')
+    out = cv.VideoWriter('facedetection.mp4', fourcc, 20.0, size)
 
     while(cap.isOpened()):
         ret, frame = cap.read()   
@@ -58,12 +65,10 @@ def facedetector(invideo, facedetector):
 
         #pdb.set_trace()
         cv.imshow("Detection", frame)
+        out.write(frame)
         if cv.waitKey(10) & 0xFF == ord('q'):
             break
     
 
     cap.release()
     cv.destroyAllWindows()
-
-
-

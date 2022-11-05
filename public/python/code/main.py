@@ -18,7 +18,7 @@ args = parser.parse_args()
 if args.command == 'videotrimming':
     videotrimming(input="makeup.mp4")
 elif args.command == 'facedetector':
-    facedetector(invideo="./trim/5.mp4")
+    facedetector(invideo="./trim/5.mp4", facedetector="shape_predictor_68_face_landmarks.dat")
 elif args.command == 'facealign':
     facealign()
 elif args.command == 'facetovideo':

@@ -43,6 +43,17 @@ app.get('/detectFaces', function(req, res) {
     });
 });
 
+app.get('/cropFaces', function(req, res) {
+    var proc = exec('python public/python/code/main.py -2', function(err, stdout, stderr) {
+        if(err) {console.log('Child process error: ', err);}
+        else {
+            console.log(stdout);
+            console.log(stderr);
+        }
+        res.render('crop_faces.ejs', {stdout:stdout, stderr:stderr})
+    });
+});
+
 app.listen(port, function(err) {
     if(err) {console.log('Could not connect to the server: ', err);}
     else {console.log('Connected to server! on port: ', port);}
