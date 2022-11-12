@@ -22,11 +22,11 @@ elif args.command == 'facedetector':
 elif args.command == 'facealign':
     facealign()
 elif args.command == 'facetovideo':
-    cropivideo(dir_path="facealign")
+    croptovideo(dir_path="facealign")
 elif args.command == 'mouthroi':
     mouthroi()
 elif args.command == 'mouthtovideo':
-    cropivideo(dir_path="mouth_roi")
+    croptovideo(dir_path="mouth_roi")
 
 # videotrimming(input="makeup.mp4")
 # facedetector(invideo="./trim/5.mp4")
