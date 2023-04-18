@@ -1,0 +1,13 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:01.07]
+First,
+[00:00:01.15]
+
+[00:00:01.15]
+let me tell you what I'm going to do in this talk and in my.
+[00:00:04.19]
+

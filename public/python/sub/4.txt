@@ -1,0 +1,21 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.00]
+No shame in it.
+[00:00:00.15]
+
+[00:00:01.01]
+Did you ever tell you about my clock?
+[00:00:02.08]
+
+[00:00:02.17]
+I don't want to tell me about it.
+[00:00:03.14]
+
+[00:00:03.14]
+I've seen enough.
+[00:00:04.03]
+

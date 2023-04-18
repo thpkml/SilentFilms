@@ -1,0 +1,17 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.14]
+I wouldn't swap you for a couple of Betty Grable.
+[00:00:02.15]
+
+[00:00:03.17]
+Oh,
+[00:00:04.03]
+
+[00:00:04.04]
+go on with you.
+[00:00:05.00]
+

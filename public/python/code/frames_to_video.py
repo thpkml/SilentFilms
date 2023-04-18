@@ -8,7 +8,7 @@ def croptovideo(dir_path):
             os.remove(f)
             #dir_path = "facealign"
         output = 'face_align_video.mp4'
-        shape = 180, 180
+        shape = 160, 160
     elif dir_path=="mouth_roi":
         for f in glob.glob("mouth_roi_video.mp4"):
             os.remove(f)

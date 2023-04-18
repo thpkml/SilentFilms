@@ -1,0 +1,13 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.10]
+Of one I intend to make in Oklahoma City next week.
+[00:00:03.04]
+
+[00:00:04.02]
+However.
+[00:00:04.21]
+

@@ -1,0 +1,21 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.00]
+Was in time.
+[00:00:00.18]
+
+[00:00:00.02]
+Greenwich.
+[00:00:01.06]
+
+[00:00:01.06]
+Mean time kissing time,
+[00:00:03.01]
+
+[00:00:03.01]
+go away.
+[00:00:03.24]
+

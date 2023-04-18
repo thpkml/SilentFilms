@@ -23,7 +23,7 @@ def facealign():
         for detection in dets:
             faces.append(sp(img, detection))
     # window = dlib.image_window()
-            images = dlib.get_face_chips(img, faces, size=180)
+            images = dlib.get_face_chips(img, faces, size=160)
             for image in images:
                 aligned_faces += 1
                 cv.imwrite(os.path.join('facealign', f'aligned_{str(index).zfill(5)}.png'), image)

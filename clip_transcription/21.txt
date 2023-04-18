@@ -1,0 +1,13 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.00]
+We are to make it successful first,
+[00:00:03.18]
+
+[00:00:03.18]
+then some.
+[00:00:04.02]
+

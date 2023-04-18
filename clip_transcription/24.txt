@@ -1,0 +1,17 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.18]
+Our defenses must be adequate,
+[00:00:02.13]
+
+[00:00:02.22]
+not just today,
+[00:00:04.06]
+
+[00:00:04.14]
+but.
+[00:00:04.21]
+

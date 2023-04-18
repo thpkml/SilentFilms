@@ -1,0 +1,13 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.00]
+The clock I invented by the time summertime,
+[00:00:03.18]
+
+[00:00:03.18]
+wintertime.
+[00:00:04.14]
+

@@ -1,0 +1,13 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:01.06]
+My fellow citizens.
+[00:00:02.12]
+
+[00:00:03.04]
+My subject tonight is science.
+[00:00:04.22]
+

@@ -1,0 +1,13 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.00]
+Genetic support of,
+[00:00:01.14]
+
+[00:00:01.14]
+not just the government but every American if.
+[00:00:04.02]
+

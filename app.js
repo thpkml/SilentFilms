@@ -98,6 +98,17 @@ app.get('/mouthtoVideo', function(req, res) {
     });
 });
 
+app.get('/prediction', function(req, res) {
+    var proc = exec('python public/python/deep_lip_reading/main.py --lip_model_path models/lrs2_lip_model', function(err, stdout, stderr) {
+        if(err) {console.log('Child process error: ', err);}
+        else {
+            console.log(stdout);
+            console.log(stderr);
+        }
+        res.render('prediction.ejs', {stdout:stdout, stderr:stderr})
+    });
+});
+
 app.listen(port, function(err) {
     if(err) {console.log('Could not connect to the server: ', err);}
     else {console.log('Connected to server! on port: ', port);}

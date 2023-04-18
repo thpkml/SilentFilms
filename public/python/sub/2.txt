@@ -1,0 +1,25 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.00]
+Got it.
+[00:00:00.10]
+
+[00:00:01.23]
+Look up Joe.
+[00:00:02.16]
+
+[00:00:02.20]
+Now,
+[00:00:03.01]
+
+[00:00:03.01]
+take this thing.
+[00:00:03.19]
+
+[00:00:04.02]
+It's just another.
+[00:00:04.23]
+

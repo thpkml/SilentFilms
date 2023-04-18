@@ -1,0 +1,13 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.00]
+I shall propose a program of action,
+[00:00:02.06]
+
+[00:00:02.21]
+a program that will demand the.
+[00:00:04.18]
+
