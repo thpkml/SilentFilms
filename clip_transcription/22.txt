@@ -1,0 +1,13 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.00]
+Facts about our present security posture.
+[00:00:02.16]
+
+[00:00:03.20]
+It is one of great strength.
+[00:00:04.22]
+

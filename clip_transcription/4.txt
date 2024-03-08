@@ -1,0 +1,13 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+[00:00:00.00]
+president discusses science and national security,
+[00:00:02.13]
+
+[00:00:02.17]
+the first in a series of addresses scheduled in the
+[00:00:04.02]
+
